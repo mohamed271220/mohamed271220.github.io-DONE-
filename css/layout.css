@@ -1,0 +1,107 @@
+
+body {
+    background-color: #1d838e;
+}
+* {
+    box-sizing: border-box;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(186, 162, 129);
+  }
+
+
+
+  .o {
+   
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #58b8ab;
+    width: 90%;
+    height: 200px;
+    font-family: Helvetica;
+    color: white;
+    padding: 0px 10px 10px 10px;
+  }
+div{
+  margin-top: 15px;
+}
+  
+  .row {
+    width: 100%;
+   
+  }
+  .o .beeflbl {
+    float: right;
+    clear: both;
+    position: relative;
+    top:-.9em;
+    left:.6em;
+    border: 1px solid black;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(240, 96, 96);
+    margin-left: 100% ;    
+  }
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3 {
+      float: left; 
+    }
+
+
+    .col-lg-1 {
+      width: 33.33%;
+    }
+    .col-lg-2 {
+      width:33.33%;
+    }
+    .col-lg-3 {
+      width: 33.33%;
+
+  }
+}
+  @media(min-width: 768px ) and (max-width: 991px){
+    .col-md-1 , .col-md-2 , .col-md-3 {
+        float: left ;
+        
+      }
+      .col-md-1 {
+       padding-left:22.6px ;
+        width: 50%;
+      }
+      .col-md-2 {
+        padding-left:26px ;
+        width: 50%;
+      }
+      .col-md-3 {
+      
+        width: 103%;
+      }
+   
+
+
+  }
+
+  @media (max-width: 767px) {
+    .col-sm-1, .col-sm-2, .col-sm-3 {
+      float: left;
+       
+    }
+    .col-sm-1 {
+        width: 100%;
+      }
+      .col-sm-2 {
+        width: 100%;
+      }
+      .col-sm-3 {
+        width: 100%;
+      }
+   
+
+  }
+  
